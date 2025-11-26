@@ -9,25 +9,23 @@
 }
 
 .nav-container {
-  max-width: 1250px; /* Or a larger value like 1400px, or remove it */
+  max-width: 1250px;
   margin: 0 auto;
-  padding: 18px 20px;
+  padding: 22px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* Remove the temporary red border if you added it: */
-  /* border: 1px solid red; */
 }
 
-/* LOGO */
+/* logo */
 .nav-logo {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--primary);
   letter-spacing: -0.5px;
 }
 
-/* NAV LINKS */
+/* nav links */
 .nav-links {
   display: flex;
   gap: 40px;
@@ -42,7 +40,7 @@
   position: relative;
 }
 
-/* Hover underline (smooth) */
+/* Hover  */
 .nav-links a::after {
   content: "";
   width: 0%;
@@ -59,7 +57,7 @@
   width: 100%;
 }
 
-/* NAV ICONS */
+/* nav icons */
 .nav-icons {
   display: flex;
   gap: 22px;
@@ -73,7 +71,7 @@
   transition: 0.2s ease;
 }
 
-/* RESPONSIVE */
+/* responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
