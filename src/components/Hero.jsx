@@ -4,7 +4,7 @@ import smallImg from "../assets/hero-small.jpg";
 
 export default function Hero(){
     return (
-        <section className="hero-section">
+        <section className="hero-section" id="hero">
 
             {/* left content */}
             < div className="hero-left">
@@ -17,7 +17,7 @@ export default function Hero(){
                     At VogueLine, we curate the latest trends to help you express your unique style with confidence.
                 </p>
 
-                <button className="hero-btn"> Shop Now</button>
+                <a href="#featured" className="hero-btn">Shop Now</a>
             </div>
 
             {/* right image */}
