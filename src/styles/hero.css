@@ -1,0 +1,143 @@
+.hero-section{
+    width: 100%;
+    min-height: 650px;
+    padding: 80px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: radial-gradient(circle at top left, #f7f7f7 0%, #ffffff 70%);
+}
+
+/* left */
+.hero-left {
+    width: 45%;
+    margin-left: auto;
+}
+
+.hero-left h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--primary);
+}
+
+.brand-accent{
+    color: var(--accent);
+    text-shadow: 10px 15px 85px var(--accent);
+    
+}
+
+.hero-left p {
+    margin: 20px 10px 38px ;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6b7280;
+}
+
+.hero-btn{
+    background-color: var(--accent);
+    color: #ffffff;
+    padding: 14px 26px;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 10px 15px 85px var(--accent);
+}
+
+.hero-btn:hover{
+    background: #ffffff;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+}
+
+/* right */
+.hero-right{
+    width: 50%;
+    position: relative;
+}
+
+.hero-main-img{
+    width: 430px;
+    border-radius: 20px;
+    box-shadow: 10px 30px 35px rgba(45, 82, 118, 0.524);
+}
+
+.hero-small-img{
+    width: 280px;
+    position: absolute;
+    border: 6px solid #ffffff;
+    bottom: -130px;
+    right: 190px;
+    border-radius: 18px;
+    box-shadow: 10px 15px 28px rgba(0, 0, 0, 0.375);
+}
+
+/* yellow corner lines */
+.corner-line{
+    width: 95px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 3px;
+    position: absolute;
+    top: -38px;
+    left: -10px;
+    box-shadow: 10px 15px 85px var(--accent);
+}
+
+/* outline text */
+
+.outline-text{
+    position: absolute;
+    bottom: -150px;
+    margin-left: 100px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 10px;
+    color: transparent;
+    -webkit-text-stroke: 2px #d5d5d5;
+    opacity: 0.5;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-section{
+        flex-direction: column;
+        padding: 60px 30px;
+        min-height: auto;
+        gap: 40px;
+    }
+
+    .hero-left, .hero-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-left h1{
+        font-size: 36px;
+    }
+
+    .hero-right{
+        margin-top: 20px;
+    }
+
+    .hero-main-img{
+        width: 280px;
+    }
+
+    .hero-small-img{
+        position: static;
+        width: 140px;
+        margin-top: 20px;
+    }
+
+    .outline-text{
+        display: none;
+    }
+}
