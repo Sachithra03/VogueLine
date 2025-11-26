@@ -9,10 +9,10 @@ export default function Navbar(){
 
                 {/* Center-linkes */}
                 <nav className="nav-links">
-                    <a href="#" className="active"> Home</a>
-                    <a href="#" > shop</a>
-                    <a href="#"> About</a>
-                    <a href="#"> Contact</a>
+                    <a href="#hero"> Home</a>
+                    <a href="#featured"> shop</a>
+                    <a href="#about"> About</a>
+                    <a href="#contact"> Contact</a>
                 </nav>
 
                 {/* Right icons */}
