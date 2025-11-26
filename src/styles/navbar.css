@@ -1,0 +1,81 @@
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-container {
+  max-width: 1250px; /* Or a larger value like 1400px, or remove it */
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Remove the temporary red border if you added it: */
+  /* border: 1px solid red; */
+}
+
+/* LOGO */
+.nav-logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: -0.5px;
+}
+
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  font-size: 16px;
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+/* Hover underline (smooth) */
+.nav-links a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--accent);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+
+/* NAV ICONS */
+.nav-icons {
+  display: flex;
+  gap: 22px;
+  font-size: 20px;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.nav-icons i:hover {
+  color: var(--accent);
+  transition: 0.2s ease;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
