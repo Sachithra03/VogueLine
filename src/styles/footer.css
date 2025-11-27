@@ -14,6 +14,7 @@
 .footer-logo{
     font-family: "Poppins", sans-serif;
     font-size: 26px;
+    padding-bottom: 20px;
     font-weight: 700;
     margin-bottom: 12px;
 }
@@ -29,13 +30,13 @@
 /* social media icons */
 .footer-socials{
     display: flex;
-    gap: 22px;
+    gap: 82px;
     justify-content: center;
-    margin: 25px 0;;
+    margin: 40px 0 25px;
 }
 
 .footer-socials i{
-    font-size: 22px;
+    font-size: 32px;
     cursor: pointer;
     color: #e5e7eb;
     transition: 0.3s ease;
