@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Featured from '../components/Featured'
-import About from '../components/About'
-import Footer from '../components/Footer'
+import Navbar from './components/Navbar.jsx'
+import Hero from './components/Hero.jsx'
+import Featured from './components/Featured.jsx'
+import About from './components/About.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
