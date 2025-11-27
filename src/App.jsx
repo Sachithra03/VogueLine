@@ -5,6 +5,7 @@ import Navbar from './components/NavBar'
 import Hero from './components/Hero'
 import Featured from './components/Featured'
 import About from './components/About'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     <Hero />
     <Featured />
     <About />
+    <Footer />
     </>
   )
 }

@@ -12,7 +12,7 @@ export default function Navbar(){
                     <a href="#hero"> Home</a>
                     <a href="#featured"> shop</a>
                     <a href="#about"> About</a>
-                    <a href="#contact"> Contact</a>
+                    <a href="#footer"> Contact</a>
                 </nav>
 
                 {/* Right icons */}
