@@ -15,7 +15,7 @@ export default function Footer(){
                 <p className="footer-email">info@vogueline.com</p>
 
                 {/* social media icons */}
-                <div className="footer-social">
+                <div className="footer-socials">
                     <i className="ri-instagram-line"></i>
                     <i className="ri-facebook-line"></i>
                     <i className="ri-tiktok-line"></i>

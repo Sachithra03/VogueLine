@@ -30,13 +30,13 @@
 /* social media icons */
 .footer-socials{
     display: flex;
-    gap: 82px;
+    gap: 15px;
     justify-content: center;
-    margin: 40px 0 25px;
+    margin: 20px 25px;
 }
 
 .footer-socials i{
-    font-size: 32px;
+    font-size: 20px;
     cursor: pointer;
     color: #e5e7eb;
     transition: 0.3s ease;
