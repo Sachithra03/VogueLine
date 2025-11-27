@@ -64,7 +64,8 @@
 .hero-main-img{
     width: 430px;
     border-radius: 20px;
-    box-shadow: 10px 30px 35px rgba(45, 82, 118, 0.524);
+    box-shadow: 20px 40px 35px rgba(45, 82, 118, 0.524);
+    transition: 0.8s ease;
 }
 
 .hero-small-img{
@@ -75,6 +76,13 @@
     right: 190px;
     border-radius: 18px;
     box-shadow: 10px 15px 28px rgba(0, 0, 0, 0.375);
+    transition: 0.8s ease;
+}
+
+.hero-main-img:hover,
+.hero-small-img:hover{
+    box-shadow: 10px 15px 85px #c9ba68d1;
+    transform: translateY(-5px);
 }
 
 /* yellow corner lines */
