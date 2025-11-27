@@ -5,7 +5,7 @@ export default function Navbar(){
         <header className="navbar">
             <div className="nav-container">
 
-                <div className="nav-logo">VogueLine</div>
+                <a href="#hero" className="nav-logo">VogueLine</a>
 
                 {/* Center-linkes */}
                 <nav className="nav-links">
