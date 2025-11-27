@@ -4,7 +4,7 @@ A modern, responsive fashion e-commerce website built with React and Vite. Vogue
 
 ## 🔗 Live Demo
 
-🌐 **[View Live Site](YOUR_VERCEL_URL_HERE)** - Deployed on Vercel
+🌐 **[View Live Site](https://vogue-line-store.vercel.app/)** - Deployed on Vercel
 
 ![VogueLine](https://img.shields.io/badge/Version-0.0.0-blue)
 ![React](https://img.shields.io/badge/React-19.2.0-61dafb?logo=react)
