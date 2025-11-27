@@ -1,6 +1,6 @@
 import "../styles/navbar.css";
 
-export default function Navbar(){
+export default function navbar(){
     return(
         <header className="navbar">
             <div className="nav-container">

@@ -4,7 +4,7 @@ import img1 from "../assets/featured-1.png";
 import img2 from "../assets/featured-2.png";
 import img3 from "../assets/featured-3.png";
 
-export default function Featured(){
+export default function featured(){
     return (
 
         <section className="featured-section" id="featured">

@@ -1,6 +1,6 @@
 import "../styles/footer.css";
 
-export default function Footer(){
+export default function footer(){
     return(
         <section className="footer-section" id="footer">
         <footer className="footer">

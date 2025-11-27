@@ -1,6 +1,6 @@
 import "../styles/about.css"
 
-export default function About(){
+export default function about(){
     return (
 
         <section className="about-section" id="about">

@@ -2,7 +2,7 @@ import "../styles/hero.css"
 import mainImg from "../assets/hero-main.jpg";
 import smallImg from "../assets/hero-small.jpg";
 
-export default function Hero(){
+export default function hero(){
     return (
         <section className="hero-section" id="hero">
 
