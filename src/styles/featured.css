@@ -46,7 +46,7 @@
 
 .featured-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 12px 32px var(--accent);
 }
 
 /* card image */
@@ -75,7 +75,7 @@
 /* button */
 .featured-btn {
   background: var(--accent);
-  color: var(--primary);
+  color: #ffffff;
   border: none;
   padding: 10px 18px;
   width: 100%;
@@ -87,5 +87,8 @@
 }
 
 .featured-btn:hover {
-  background: #cbaa00;
+  border: 2px solid var(--accent);
+  background: #ffffff;
+  color: var(--accent);
+  box-shadow: 0px 8px 30px var(--accent) ;
 }
